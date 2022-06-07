@@ -20,6 +20,7 @@ class VinylController extends AbstractController
             ['song' => 'On a Bended Knee', 'artist' =>'Boyz II Men'],
             ['song' => 'Fantasy', 'artist' =>'Mariah Carey'],
         ];
+
         return $this->render('vinyl/homepage.html.twig', [
             'title' => 'PB & Jams',
             'tracks' => $tracks,

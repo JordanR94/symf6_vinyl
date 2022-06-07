@@ -271,6 +271,9 @@
             "./config/packages/debug.yaml"
         ]
     },
+    "symfony/debug-pack": {
+        "version": "v1.0.10"
+    },
     "symfony/dependency-injection": {
         "version": "v6.0.9"
     },
@@ -461,6 +464,9 @@
     "symfony/process": {
         "version": "v6.0.8"
     },
+    "symfony/profiler-pack": {
+        "version": "v1.0.6"
+    },
     "symfony/property-access": {
         "version": "v6.0.8"
     },
@@ -550,9 +556,6 @@
             "./config/packages/twig.yaml",
             "./templates/base.html.twig"
         ]
-    },
-    "symfony/twig-pack": {
-        "version": "v1.0.1"
     },
     "symfony/validator": {
         "version": "6.0",
